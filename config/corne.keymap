@@ -19,7 +19,7 @@
 // | SHF |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ENT  |
 //                   | CTRL| ENT | ALT |   | RSE | SPACE  | LWR |
                         bindings = <
-   &kp BSPC        &kt P         &kp O     &kp I       &kp U      &kp Y                &kp T        &kp R         &kp E         &kp W         &kp Q         &kp ESC   
+   &kp BSPC        &kp P         &kp O     &kp I       &kp U      &kp Y                &kp T        &kp R         &kp E         &kp W         &kp Q         &kp ESC   
    &kp SQT         &kp SEMI      &kp L     &kp K       &kp J      &kp H                &kp G        &kp F         &kp D         &kp S         &kp A         &kp TAB 
    &kp RET         &kp FSLH      &kp DOT   &kp COMMA   &kp M      &kp N                &kp B        &kp V         &kp C         &kp X         &kp Z         &mt LSHFT LCAPS  
                                             &mo 1     &kp SPACE   &mo 2                &kp LALT     &kp RET       &kp LCTRL 
