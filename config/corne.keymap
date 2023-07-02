@@ -19,12 +19,13 @@
 // | SHF |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ENT  |
 //                   | CTRL| ENT | ALT |   | RSE | SPACE  | LWR |
                         bindings = <
-   &kp BSPC        &mo P N0      &mo O N9  &mo I N8    &mo U N7   &mo Y N6                  &mo T N5     &mo R N4      &mo E N3      &mo W N2      &mo Q N1      &kp ESC   
-   &kp SQT         &kp SEMI      &kp L     &kp K       &kp J      &kp H                     &kp G        &kp F         &kp D         &kp S         &kp A         &kp TAB 
-   &kp RET         &kp FSLH      &kp DOT   &kp COMMA   &kp M      &kp N                     &kp B        &kp V         &kp C         &kp X         &kp Z         &mt LCAPS LSHFT 
-                                            &mo 1     &kp SPACE   &mo 2                     &kp LALT     &kp RET       &kp LCTRL 
+   &kp BSPC        &mt P N0      &mt O N9  &mt I N8    &mt U N7   &mt Y N6             &mt T N5     &mt R N4      &mt E N3      &mt W N2      &mt Q N1      &kp ESC   
+   &kp SQT         &kp SEMI      &kp L     &kp K       &kp J      &kp H                &kp G        &kp F         &kp D         &kp S         &kp A         &kp TAB 
+   &kp RET         &kp FSLH      &kp DOT   &kp COMMA   &kp M      &kp N                &kp B        &kp V         &kp C         &kp X         &kp Z         &mt LCAPS LSHFT 
+                                            &mo 1     &kp SPACE   &mo 2                &kp LALT     &kp RET       &kp LCTRL 
                         >;
                 };
+
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |  ESC |  =  |  7  |  8  |  9  |  0  |   |  &  |  [  |  UP  |  ]  | DEL | BKSP |
@@ -46,10 +47,10 @@
 // | SHF  |  BT0  |  BT1  | BT2  | BT3 |  BT4 |   |  _  |  +  |  {  |  }  | "|" |  ~  |
 //                         | CTRL| ENT | ALT |    | RSE | SPACE | LWR |
                         bindings = <
-   &kp CARET  &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &kp DEL                &kp ESC   &kp EXCL      &kp AT        &kp HASH       &kp DLLR        &kp PRCNT         
-   &kp F7     &kp F8    &kp F9          &kp F10   &kp F11   &kp F12                &kp F1    &kp F2        &kp F3        &kp F4         &kp F5          &kp F6            
-   &kp UNDER  &kp PLUS  &kp LBRC        &kp RBRC  &kp PIPE &kp TILDE               &mt LCAPS LSHFT &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3    &bt BT_SEL 4      
-                                         &mo 0      &kp SPACE &mo 1                &kp LCTRL      &kp RET         &kp LALT          
+   &kp DEL        &kp RPAR        &kp LPAR        &kp KP_MULTIPLY        &kp AMPS        &kp CARET                &kp PRCNT         &kp DLLR        &kp HASH       &kp AT        &kp EXCL        &kp ESC         
+   &kp F7         &kp F12         &kp F11         &kp F10                &kp F9          &kp F8                   &kp F6            &kp F5          &kp F4         &kp F3        &kp F2          &kp F1                    
+   &kp TILDE      &kp PIPE        &kp RBRC        &kp LBRC               &kp PLUS        &kp UNDER                &bt BT_SEL 4      &bt BT_SEL 3    &bt BT_SEL 2   &bt BT_SEL 1  &bt BT_SEL 0    &mt LCAPS LSHFT       
+                                                  &mo 1                  &kp SPACE       &mo 0                    &kp LALT          &kp RET         &kp LCTRL      
                         >;
                 };
         };
