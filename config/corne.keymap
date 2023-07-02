@@ -19,9 +19,9 @@
 // | SHF |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ENT  |
 //                   | CTRL| ENT | ALT |   | RSE | SPACE  | LWR |
                         bindings = <
-   &kp BSPC        &mt P N0      &mt O N9  &mt I N8    &mt U N7   &mt Y N6             &mt T N5     &mt R N4      &mt E N3      &mt W N2      &mt Q N1      &kp ESC   
+   &kp BSPC        &mt N0 P      &mt N9 O  &mt N8  I  &mt N7 U  &mt N6 Y               &mt N5 T     &mt N4 R      &mt N3 E      &mt N2 W      &mt N1 Q      &kp ESC   
    &kp SQT         &kp SEMI      &kp L     &kp K       &kp J      &kp H                &kp G        &kp F         &kp D         &kp S         &kp A         &kp TAB 
-   &kp RET         &kp FSLH      &kp DOT   &kp COMMA   &kp M      &kp N                &kp B        &kp V         &kp C         &kp X         &kp Z         &mt LCAPS LSHFT 
+   &kp RET         &kp FSLH      &kp DOT   &kp COMMA   &kp M      &kp N                &kp B        &kp V         &kp C         &kp X         &kp Z         &mt LSHFT LCAPS  
                                             &mo 1     &kp SPACE   &mo 2                &kp LALT     &kp RET       &kp LCTRL 
                         >;
                 };
@@ -35,7 +35,7 @@
                         bindings = <
    &kp BSPC       &kp DEL         &kp RBKT        &kp UP        &kp LBKT      &kp AMPS              &kp N0        &kp N9        &kp N8        &kp N7        &kp EQUAL        &kp ESC       
    &kp SQT        &kp SEMI        &kp RIGHT       &kp DOWN      &kp LEFT      &kp UNDER             &kp PLUS      &kp N6        &kp N5        &kp N4        &kp KP_MULTIPLY  &kp TAB         
-   &kp RET        &kp BSLH        &kp DOT         &kp COMMA     &kp TILDE     &kp PIPE              &kp MINUS     &kp N3        &kp N2        &kp N1        &kp FSLH         &mt LCAPS LSHFT      
+   &kp RET        &kp BSLH        &kp DOT         &kp COMMA     &kp TILDE     &kp PIPE              &kp MINUS     &kp N3        &kp N2        &kp N1        &kp FSLH         &mt LSHFT LCAPS      
                                                   &mo 1         &kp SPACE     &mo 2                 &kp LALT      &kp RET       &kp LCTRL 
                         >;
                 };
@@ -49,7 +49,7 @@
                         bindings = <
    &kp DEL        &kp RPAR        &kp LPAR        &kp KP_MULTIPLY        &kp AMPS        &kp CARET                &kp PRCNT         &kp DLLR        &kp HASH       &kp AT        &kp EXCL        &kp ESC         
    &kp F7         &kp F12         &kp F11         &kp F10                &kp F9          &kp F8                   &kp F6            &kp F5          &kp F4         &kp F3        &kp F2          &kp F1                    
-   &kp TILDE      &kp PIPE        &kp RBRC        &kp LBRC               &kp PLUS        &kp UNDER                &bt BT_SEL 4      &bt BT_SEL 3    &bt BT_SEL 2   &bt BT_SEL 1  &bt BT_SEL 0    &mt LCAPS LSHFT       
+   &kp TILDE      &kp PIPE        &kp RBRC        &kp LBRC               &kp PLUS        &kp UNDER                &bt BT_SEL 4      &bt BT_SEL 3    &bt BT_SEL 2   &bt BT_SEL 1  &bt BT_SEL 0    &mt LSHFT LCAPS
                                                   &mo 1                  &kp SPACE       &mo 0                    &kp LALT          &kp RET         &kp LCTRL      
                         >;
                 };
