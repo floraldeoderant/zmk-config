@@ -19,10 +19,10 @@
 // | CTRL |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ENT  |
 //                    | ALT | ENT | SHF |   | RSE | SPACE  | LWR |
                         bindings = <
-&kp ESC	  &kp Q	  &kp W	&kp E	&kp R	&kp T		&kp Y	&kp U	&kp I	&kp O	&kp P	&kp BSPC
-&kp TAB	  &kp A	  &kp S	&kp D	&kp F	&kp G		&kp H	&kp J	&kp K	&kp L	&kp SEMI	&kp SQT
-&kp LCTRL	  &kp Z	&kp X	&kp C	&kp V	&kp B		&kp N	&kp M	&kp COMMA	&kp DOT	&kp FSLH	&kp RET
-			&kp LALT 	&kp RET 	&mt LSHFT LCAPS		&to 1	&kp SPACE	&mo 2			
+&kp ESC	  &kp Q	  &kp W	&kp E	&kp R	&kp T		&kp Y	&kp U		&kp I		&kp O		&kp P		&kp BSPC
+&kp TAB	  &kp A	  &kp S	&kp D	&kp F	&kp G		&kp H	&kp J		&kp K		&kp L		&kp SEMI	&kp SQT
+&kp LCTRL &kp Z	  &kp X	&kp C	&kp V	&kp B		&kp N	&kp M		&kp COMMA	&kp DOT		&kp FSLH	&kp RET
+&kp LALT 	&kp RET 	&mt LSHFT LCAPS		&to 1	&kp SPACE	&mo 2			
                         >;
                 };
 
@@ -33,10 +33,10 @@
 // |  CTRL |  /  |  1  |  2  |  3  |  +  |   |  |  |  ~  |   ,  |  .  |  \  |  ENT |
 //                     | ALT | ENT | SHF |   | RSE | SPACE  | LWR |
                         bindings = <
-&kp ESC	  &kp EQUAL	&kp N7	&kp N8	 &kp N9	  &kp N0	&kp AMPS	        &kp LBKT	&kp UP	&kp RBKT	&kp DEL	&kp BSPC
-&kp TAB	  &kp KP_MULTIPLY	&kp N4	 &kp N5	  &kp N6	&kp MINUS		&kp UNDER	&kp LEFT	&kp DOWN	&kp RIGHT	&kp SEMI	&kp SQT
-&kp LCTRL	&kp FSLH	&kp N1	 &kp N2	  &kp N3	&kp PLUS		&kp PIPE	&kp TILDE	&kp COMMA	&kp DOT	&kp BSLH	&kp RET
-			&kp LALT 	 &kp RET 	&mt LSHFT LCAPS		&to 1	&kp SPACE	&mo 2
+&kp ESC	  	&kp EQUAL	&kp N7	 &kp N8	  &kp N9	&kp N0			&kp AMPS	&kp LBKT	&kp UP		&kp RBKT	&kp DEL		&kp BSPC
+&kp TAB	  	&kp KP_MULTIPLY	&kp N4	 &kp N5	  &kp N6	&kp MINUS		&kp UNDER	&kp LEFT	&kp DOWN	&kp RIGHT	&kp SEMI	&kp SQT
+&kp LCTRL	&kp FSLH	&kp N1	 &kp N2	  &kp N3	&kp PLUS		&kp PIPE	&kp TILDE	&kp COMMA	&kp DOT		&kp BSLH	&kp RET
+			&kp LALT 	 &kp RET 		&mt LSHFT LCAPS		&to 1		&kp SPACE	&mo 2
                         >;			
                 };
 
@@ -47,10 +47,10 @@
 // | CTRL |  BTclr  |  BT1  | BT2  | BT3 |  BT4 |   |  _  |  +  |  {  |  }  | "|" |  ~  |
 //                          | ALT | ENT | SHF |   | RSE | SPACE  | LWR |
                         bindings = <
-&kp F1	  &kp F2	&kp F3	&kp F4	&kp F5	&kp F6		&kp F8	&kp F9	&kp F10	&kp F11	&kp F12	&kp F7
-&kp ESC	  &kp EXCL	&kp AT	&kp HASH	&kp DLLR	&kp PRCNT		&kp CARET	&kp AMPS	&kp KP_MULTIPLY	&kp LPAR	&kp RPAR	&kp DEL
-&bt BT_SEL 1	&bt BT_SEL 2	&bt BT_SEL 3	&bt BT_SEL 4	&bt BT_SEL 5	&bt BT_SEL 6		&kp UNDER	&kp PLUS	&kp LBRC	&kp RBRC	&kp PIPE	&kp TILDE
-			&kp LALT 	&kp RET 	&mt LSHFT LCAPS		&to 1	&kp SPACE	&mo 2
+&kp F1	  	&kp F2		&kp F3		&kp F4		&kp F5	&kp F6		&kp F8			&kp F9		&kp F10		&kp F11		&kp F12		&kp F7
+&kp ESC	  	&kp EXCL	&kp AT		&kp HASH	&kp DLLR		&kp PRCNT		&kp CARET	&kp AMPS	&kp KP_MULTIPLY	&kp LPAR	&kp RPAR	&kp DEL
+&bt BT_SEL 1	&bt BT_SEL 2	&bt BT_SEL 3	&bt BT_SEL 4	&bt BT_SEL 5		&bt BT_SEL 6		&kp UNDER	&kp PLUS	&kp LBRC	&kp RBRC	&kp PIPE	&kp TILDE
+				&kp LALT 	&kp RET 	&mt LSHFT LCAPS		&to 1			&kp SPACE	&mo 2
                         >;			
                 };
         };
